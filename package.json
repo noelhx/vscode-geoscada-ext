@@ -10,13 +10,13 @@
     },
     "publisher": "Noel Henderson",
     "license": "MIT",
-    "homepage": "https://github.com/<my-github>/<my-extension-project>",
+    "homepage": "https://github.com/noelhx/vscode-geoscada-ext",
     "repository": {
         "type": "git",
-        "url": "https://github.com/<my-github>/<my-extension-project>.git"
+        "url": "https://github.com/noelhx/vscode-geoscada-ext.git"
     },
     "bugs": {
-        "url": "https://github.com/<my-github>/<my-extension-project>/issues"
+        "url": "https://github.com/noelhx/vscode-geoscada-ext/issues"
     },
     "galleryBanner": {
         "color": "#1e415e",
