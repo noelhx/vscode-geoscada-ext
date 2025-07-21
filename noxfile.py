@@ -90,7 +90,8 @@ def _update_npm_packages(session: nox.Session) -> None:
 
 
 def _setup_template_environment(session: nox.Session) -> None:
-    session.install("wheel", "pip-tools")
+    session.install("pip<24.0")
+    session.install("wheel", "pip-tools==6.14.0")
     _update_pip_packages(session)
     _install_bundle(session)
 
